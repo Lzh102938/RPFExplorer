@@ -1,0 +1,10 @@
+# 仓库内统一 LF；检出时由 Git 按平台处理
+* text=auto eol=lf
+
+# 二进制资源（如后续加入测试样本）不做换行转换
+*.bin  binary
+*.gxt  binary
+*.rpf  binary
+*.png  binary
+*.jpg  binary
+*.7z   binary
